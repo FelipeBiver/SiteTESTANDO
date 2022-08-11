@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    cursor: cell;
+    background-color: #F8F1CA;
+}
+div{
+    position: absolute;
+}
+#ini{
+width: 100%;
+height: 602px;
+}
+.flex{
+    top: 0;
+    position: fixed;
+    background: rgba(252, 247, 0, 0.5);
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    z-index: 1000;
+}
+li{
+    display: inline-block;
+}
+#logo{
+    z-index: 1112;
+    position: relative;
+    left: 0;
+}
+#cab{
+    font-family: "Lato",sans-serif;
+    font-weight: bold;
+    font-size: 29px;
+    padding-left: 150px;
+}
+#cad{
+  left: 100%;  
+  margin-top: 0;
+
+}
+.ult{
+    margin-right: 200px;
+}
+.botao{
+    position: relative;
+    padding: 1em;
+    border-radius: 6px;
+    background: yellow;
+    cursor: pointer;
+    display: block;
+    width: 16%;
+    margin-top: 3em;
+    text-align: center;
+    top: 12.5cm;
+    left: 380px;
+    -webkit-box-shadow: 5px 9px 13px 4px rgba(217,186,0,0.52); 
+box-shadow: 5px 9px 13px 4px rgba(217,186,0,0.52);
+}
+
+.botao:hover{
+    background: rgb(255, 226, 64);
+}
+#clique{
+    font-family: "Lato",sans-serif;
+    font-size: 16px;    
+    font-weight:bolder;  
+    color: black;
+}
+strong{
+    color: rgb(255, 174, 0);
+}
+#info{
+    font-family: "Lato",sans-serif;
+    font-size: 14px;    
+    font-weight:bolder;  
+    color: black;
+    position: relative;
+    top: 3.75cm;
+    left: 295px;
+    width: 30%;
+}
+a{
+    color: black;
+}
