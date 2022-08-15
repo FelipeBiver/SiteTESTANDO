@@ -3,12 +3,12 @@ body{
     cursor: cell;
     background-color: #F8F1CA;
 }
-div{
-    position: absolute;
-}
 #ini{
 width: 100%;
 height: 602px;
+border-style: solid;
+border-color: rgba(252, 248, 0, 0.664);;
+border-radius: 50px;
 }
 .flex{
     top: 0;
@@ -42,7 +42,7 @@ li{
     margin-right: 200px;
 }
 .botao{
-    position: relative;
+
     padding: 1em;
     border-radius: 6px;
     background: yellow;
@@ -55,6 +55,7 @@ li{
     left: 380px;
     -webkit-box-shadow: 5px 9px 13px 4px rgba(217,186,0,0.52); 
 box-shadow: 5px 9px 13px 4px rgba(217,186,0,0.52);
+position: absolute;
 }
 
 .botao:hover{
@@ -70,15 +71,107 @@ strong{
     color: rgb(255, 174, 0);
 }
 #info{
+        position: absolute;
     font-family: "Lato",sans-serif;
-    font-size: 14px;    
+    font-size: 25px;    
     font-weight:bolder;  
     color: black;
-    position: relative;
     top: 3.75cm;
     left: 295px;
     width: 30%;
 }
 a{
     color: black;
+}
+.container {  display: grid;
+    grid-template-columns: 2% 1fr 1% 1fr 1% 1fr 2%;
+    grid-template-rows: 80px 800px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". escolha escolha escolha escolha escolha ."
+      ". cursos . pecas . concerto .";
+  }
+  
+  .escolha { grid-area: escolha; 
+  text-align: center;
+  }
+  
+  #cursos { grid-area: cursos; 
+}
+.paletes{
+  background-color:  rgba(252, 248, 0, 0.664);
+  border-radius: 50px;
+  text-align: center;
+  border-radius: 50px;
+}
+.paletes:hover{
+  background: rgb(255, 226, 64);
+  width: 103%;
+}  
+  #pecas { grid-area: pecas; 
+}
+  
+  #concerto { grid-area: concerto; 
+}
+  h3{
+    font-size: 40px
+  }
+  #imagempalete:hover{
+    width: 568px;
+    height: 340px;
+  }
+  #titulo{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  footer{
+    position: absolute;
+    width: 100%;
+    background-color:  rgba(252, 248, 0, 0.664);
+    height: 200px;
+  }
+  #cab:hover{
+    color: rgb(255, 255, 255);
+    transition: 750ms;
+  }
+  #txtpalete{
+    font-size: 25px;    
+    font-weight:bolder;  
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #divtxt{
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .botaopalete{
+    padding: 1em;
+    border-radius: 6px;
+    background: rgb(0, 0, 0);
+    cursor: pointer;
+    display: block;
+    width: 80%;
+    margin-top: 3em;
+    text-align: center;
+    margin-left: 10%;
+}
+#clique2{
+  font-family: "Lato",sans-serif;
+  font-size: 16px;    
+  font-weight:bolder;  
+  color: white;
+}
+table{
+  width: 100%;
+}
+#insta{
+  width: 28px;
+}
+#topicos{
+  font-family: "Lato",sans-serif;
+  font-weight: bold;
+  font-size: 20px;
 }
