@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    cursor: cell;
+    background-color: #F8F1CA;
+}
+.flex{
+    top: 0;
+    position: fixed;
+    background: rgba(252, 247, 0, 0.5);
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    z-index: 1000;
+}
+li{
+    display: inline-block;
+}
+#logo{
+    z-index: 1112;
+    position: relative;
+    left: 0;
+}
+#cab{
+    font-family: "Lato",sans-serif;
+    font-weight: bold;
+    font-size: 29px;
+    padding-left: 150px;
+}
+#cad{
+  left: 100%;  
+  margin-top: 0;
+
+}
+.ult{
+    margin-right: 200px;
+}
+a{
+    color: black;
+}

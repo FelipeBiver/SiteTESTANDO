@@ -13,11 +13,11 @@ border-radius: 50px;
 .flex{
     top: 0;
     position: fixed;
-    background: rgba(252, 247, 0, 0.5);
+    background: rgba(252, 247, 0, 0.75);
     align-items: center;
     height: 70px;
     width: 100%;
-    z-index: 1000;
+    z-index: 1002;
 }
 li{
     display: inline-block;
@@ -91,6 +91,7 @@ a{
     grid-template-areas:
       ". escolha escolha escolha escolha escolha ."
       ". cursos . pecas . concerto .";
+  padding-bottom: 5cm;
   }
   
   .escolha { grid-area: escolha; 
@@ -174,4 +175,169 @@ table{
   font-family: "Lato",sans-serif;
   font-weight: bold;
   font-size: 20px;
+}
+#imagecell{
+  margin-top: 70px;
+}
+.container2 {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 600px;
+  gap: 0px 20px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "peca1 peca2 peca3 peca4";
+    margin-top: 0.5%;
+    border-top: dashed 8px yellow;
+    border-bottom: dashed 8px yellow;
+}
+.pecass{
+  background-color: yellow;
+  border-radius: 50px 50px 20px 20px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+#peca1 { grid-area: peca1; }
+
+#peca2 { grid-area: peca2; }
+
+#peca3 { grid-area: peca3; }
+
+#peca4 { grid-area: peca4; }
+#imagempecas{
+  position: absolute;
+  left: 30px;
+  top: 250px;
+  z-index: 1001;
+}
+#imagempecas:hover{
+  opacity: 0%;
+  transition: 400ms;
+}
+#imagemfundo{
+  position: absolute;
+  left: 30px;
+  top: 250px;
+  z-index: 1000;
+}
+#newbotao{
+  left: 45px;
+  top: 700px;
+}
+.butaonv{
+  text-align: center;
+  width: 300px;
+  position: absolute;
+  z-index: 1000;
+  padding: 1em;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+}
+#txtnobut{
+  font-family: "Lato",sans-serif;
+  font-size: 16px;    
+  font-weight:bolder;  
+  color: white;
+}
+.butaonv:hover{
+  width: 320px;
+  background-color: gray;
+  color: black;
+  transition: 750ms;
+}
+.preco{
+  font-family: "Lato",sans-serif;
+  font-size: 40px;    
+  font-weight:bolder;  
+  color: black;
+  position: absolute;
+}
+#precodo1{
+  left: 120px;
+  top: 590px;
+}
+#newbotao2{
+  top: 700px;
+  left: 500px;
+}
+#catalogo{
+  font-family: "Lato",sans-serif;
+  font-size: 17px;    
+  font-weight:bolder;  
+  color: black;
+text-align: center;
+}
+#imagempecas2{
+  position: absolute;
+  left: 487px;
+  top: 250px;
+  z-index: 1001;
+}
+#imagempecas2:hover{
+  opacity: 0%;
+  transition: 400ms;
+}
+#imagemfundo2{
+  position: absolute;
+  left: 487px;
+  top: 250px;
+  z-index: 1000;
+}
+#precodo2{
+  left: 575px;
+  top: 590px;
+}
+
+#imagempecas3{
+  position: absolute;
+  left: 940px;
+  top: 250px;
+  z-index: 1001;
+}
+#imagempecas3:hover{
+  opacity: 0%;
+  transition: 400ms;
+}
+#imagemfundo3{
+  position: absolute;
+  left: 940px;
+  top: 250px;
+  z-index: 1000;
+}
+#precodo3{
+  left: 1020px;
+  top: 590px;
+}
+#newbotao3{
+  top: 700px;
+  left: 953px;
+}
+#imagempecas4{
+  position: absolute;
+  left: 1400px;
+  top: 250px;
+  z-index: 1001;
+}
+#imagempecas4:hover{
+  opacity: 0%;
+  transition: 400ms;
+}
+#imagemfundo4{
+  position: absolute;
+  left: 1400px;
+  top: 250px;
+  z-index: 1000;
+}
+#precodo4{
+  left: 1500px;
+  top: 590px;
+}
+#newbotao4{
+  top: 700px;
+  left: 1432px;
+}
+#btprx{
+  position: absolute;
+  left: 1760px;
+  top: 580px;
 }
