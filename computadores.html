@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Help-us</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='visual3.css'>
+    
+    <link rel="icon" type="image/x-icon" href="logo1.png">
+</head>
+<body>
+    <div class="flex">
+        <ul>
+           <li id="logo"> <img src="logo1.png" width="65" height="52"></li>
+            <li><a href="index.html" class="Home" id="cab">Home</a></li>
+            <li><a href="Cursos.html" id="cab">Cursos</a></li>
+            <li><a href="Concerto.html" id="cab">Concerto</a></li>
+            <li class="ult"><a href="Pecas.html" id="cab"> Peças</a></li>
+            <li><div id="cad"></li>
+            <li ><form action="/action_page.php">
+                <label for="usu">Usuario:</label>
+                <input type="text" id="usu" name="usu"><br><br></li>
+            </form>
+                <li><form action="/action_page.php">
+                    <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha"><br><br>
+              </form>
+            </li>
+            <li><form action="/action_page.php">
+                <input type="submit" value="Login">
+          </form>
+            </li>
+        </ul>
+        <img src="https://cdn-icons-png.flaticon.com/512/126/126510.png" width="90%" onclick="Mudarestado('minhaDiv')" name="select" id="select" onclick="troca()">
+        <div id="minhaDiv"> 
+          <p id="txtcarro"> Carrinho de Compras</p>
+          <p id="txtara"> Arraste aqui </p>
+           <textarea>Observações:</textarea>
+          <button id="finalize"> Finalize</button>
+        </div>
+   
+    <div class="content3">
+        <div class="slides3">
+          <input type="radio" name="slide" id="slide1" checked>
+          <input type="radio" name="slide" id="slide2">
+          <input type="radio" name="slide" id="slide3">
+          <input type="radio" name="slide" id="slide4">
+          <input type="radio" name="slide" id="slide5">
+       
+          <div class="slide s1">
+            <img src="pc1.jpg" >
+            <p id="precin"> R$3600</p>
+            </div>
+            <div class="slide">
+              <img src="pc2.jpg" >
+              <p id="precin"> R$3200</p>
+              </div>
+              <div class="slide">
+                <img src="pc3.jpg">
+                <p id="precin"> R$2600 </p>
+                </div>
+                <div class="slide">
+                  <img src="pc4.jpg">
+                  <p id="precin">  R$2900</p>
+                  </div>
+                  <div class="slide">
+                    <img src="pc5.jpg" >
+                    <p id="precin">  R$4600</p>
+                    </div>
+        </div>
+      <div class="navegar">
+      <label class="bar" for="slide1"></label>
+      <label class="bar" for="slide2"></label>
+      <label class="bar" for="slide3"></label>
+      <label class="bar" for="slide4"></label>
+      <label class="bar" for="slide5"></label>
+      </div>
+      </div>
+      
+
+
+
+
+    
+    
+      <script src='jaca.js'></script>
+</body>
+</html>
